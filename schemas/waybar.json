@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "modules-left": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "modules-center": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "modules-right": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": true
+}

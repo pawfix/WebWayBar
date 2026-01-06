@@ -1,0 +1,17 @@
+{
+  "name": "webwaybar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "electron": "^39.2.7"
+  }
+}

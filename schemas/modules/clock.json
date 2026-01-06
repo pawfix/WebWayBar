@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "format": {
+            "type": "string"
+        },
+        "tooltip": {
+            "type": "boolean"
+        }
+    },
+    "additionalProperties": false
+}

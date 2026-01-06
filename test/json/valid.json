@@ -1,0 +1,8 @@
+{
+    "modules-left": [
+        "clock"
+    ],
+    "modules-right": [
+        "battery"
+    ]
+}
