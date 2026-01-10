@@ -2,19 +2,21 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="test/style/style.css">
-        <script src="renderer/renderer.js" defer></script>
+        <title>WebWaybar</title>
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/default.css" id="cssStyle" type="text/css">
     </head>
     <body>
-        <button id="openFile">Open config</button>
+
+        <input type="file" id="openFile" accept=".json,.jsonc">
+        <input type="file" id="openCss" accept=".css">
 
         <textarea id="editor"></textarea>
-
+        <textarea id="cssEditor" placeholder="CSS"></textarea>
         <pre id="errors"></pre>
 
-        <div id="waybar" style="display: flex; gap: 10px; margin-top: 20px;"></div>
+        <div id="waybar"></div>
 
+        <script type="module" src="/script/renderer.js"></script>
     </body>
 </html>

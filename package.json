@@ -1,17 +1,18 @@
 {
   "name": "webwaybar",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "electron ."
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "ajv": "^8.17.1",
-    "electron": "^39.2.7"
+    "jsonc-parser": "^3.3.1"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
   }
 }
