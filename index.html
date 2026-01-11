@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>WebWaybar</title>
+        <link id="cssStyle" rel="stylesheet" href="/WebWayBar/styles/default.css" type="text/css">
+        <style id="live-css"></style>
+
+      <script type="module" crossorigin src="/WebWayBar/assets/index-ZRw3apqf.js"></script>
+      <link rel="stylesheet" crossorigin href="/WebWayBar/assets/index-DnRjxObU.css">
+    </head>
+    <body>
+
+        <input type="file" id="openFile" accept=".json,.jsonc">
+        <textarea id="editor"></textarea>
+
+        <input type="file" id="openCss" accept=".css">
+        <textarea id="cssEditor" placeholder="CSS"></textarea>
+
+        <label for="placeholderEditor">Custom Placeholders JSON:</label>
+        <textarea id="placeholderEditor" rows="15" cols="50"></textarea>
+        <button id="applyPlaceholders">Apply</button>
+
+        <pre id="errors"></pre>
+
+        <div id="waybar"></div>
+
+    </body>
+</html>
