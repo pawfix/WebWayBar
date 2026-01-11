@@ -4,15 +4,23 @@
         <meta charset="UTF-8">
         <title>WebWaybar</title>
         <link rel="stylesheet" href="/styles/style.css">
-        <link rel="stylesheet" href="/styles/default.css" id="cssStyle" type="text/css">
+        <link id="cssStyle" rel="stylesheet" href="/styles/default.css" type="text/css">
+        <style id="live-css"></style>
+
     </head>
     <body>
 
         <input type="file" id="openFile" accept=".json,.jsonc">
-        <input type="file" id="openCss" accept=".css">
-
         <textarea id="editor"></textarea>
+
+        <input type="file" id="openCss" accept=".css">
         <textarea id="cssEditor" placeholder="CSS"></textarea>
+
+        <label for="placeholderEditor">Custom Placeholders JSON:</label>
+        <textarea id="placeholderEditor" rows="15" cols="50"></textarea>
+        <button id="applyPlaceholders">Apply</button>
+
+        <button onclick="document.getElementById('cssStyle').remove()">Remove default style</button>
         <pre id="errors"></pre>
 
         <div id="waybar"></div>
